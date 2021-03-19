@@ -9,20 +9,61 @@
     <div class="header">
       <div class="topnav">
 
-      <a href="#"class="logo">Can <br>Gözler  </a>
+      <a href="index.html"class="logo"></a>
       <div class="h-right">
-      <a href="#" class="active">Ana sayfa</a>
-          <a href="#" class="active">Hakkımızda</a>
-            <a href="#" class="active">İletişim</a>
+
+
+
+      <a href="index.html" class="active">Ana sayfa</a>
+          <a href="about.html" class="active">Hakkımızda</a>
+            <a href="iletisim.html" class="active">İletişim</a>
+
+
+              </div>
             <div class="search-container">
-            <form action="/action_page.php">  
-            <input type="text" placeholder="Ne aramak istersiniz ?">
-            <button type="submit">Ara</button>
+            <form action="/action_page.php">
+            <input type="text" class="t" placeholder="Ne aramak istersiniz ?">
+            <button type="submit" class="cancelbtn"><i class="fa fa-search"></i>Ara</button>
           </div>
       </form>
 
-            </div>
+
           </div>
       </div>
+      <div class="r">
+
+
+                    <form action="action_page.php" method="post">
+                      <div class="imgcontainer">
+                        <img src="aboutimg/cursed1.jpg" alt="avatar"class="avatar">
+                        </div>
+
+                          <div class="container">
+                            <label for="uname"> <b style="color:#313133">Kullanıcı adı </b> </label>
+                            <input type="text" placeholder="Kullanıcı adı giriniz" name="uname" required>
+
+                            <label for="psw"> <b style="color:#313133">Şifre Giriniz </b> </label>
+                            <input type="text" placeholder="Şifre giriniz" name="psw" required>
+
+                            <button type="submit" class="cancelbtn"> Giriş yap</button>
+
+                              <button type="submit" class="cancelbtn">Kayıt Ol</button>
+
+
+                            <label>
+                              <input type="checkbox" checked="checked" name="remember"> <b style="color:#BFCAC4"  class="yazi">  Beni hatırla</b>
+                            </label>
+
+
+                          </div>
+
+
+                          <div class="container" class="saydam">
+                        <button type="button" class="cancelbtn">İptal</button>
+                        <span style="color:#313133" class="psw"> Şifremi unuttum <a href="#" style="color:#313133"> şifre  </a></span>  </div>
+
+                      </div>
+              </form>
+
   </body>
 </html>
